@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-09T18:15:40 IST" name="Suite" finished-at="2024-01-09T18:15:56 IST" duration-ms="16116">
+    <groups>
+    </groups>
+    <test started-at="2024-01-09T18:15:40 IST" name="Test" finished-at="2024-01-09T18:15:56 IST" duration-ms="16116">
+      <class name="TestPackage.SearchClass">
+        <test-method signature="SearchPOM()[pri:0, instance:TestPackage.SearchClass@16aa0a0a]" started-at="2024-01-09T18:15:42 IST" name="SearchPOM" finished-at="2024-01-09T18:15:48 IST" duration-ms="5617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPOM -->
+      </class> <!-- TestPackage.SearchClass -->
+      <class name="TestPackage.LoginClass">
+        <test-method is-config="true" signature="InitializeDriver()[pri:0, instance:TestPackage.LoginClass@14a2f921]" started-at="2024-01-09T18:15:37 IST" name="InitializeDriver" finished-at="2024-01-09T18:15:40 IST" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="LoginPOM()[pri:0, instance:TestPackage.LoginClass@14a2f921]" started-at="2024-01-09T18:15:40 IST" name="LoginPOM" finished-at="2024-01-09T18:15:42 IST" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPOM -->
+        <test-method is-config="true" signature="QuitDriver()[pri:0, instance:TestPackage.LoginClass@14a2f921]" started-at="2024-01-09T18:15:56 IST" name="QuitDriver" finished-at="2024-01-09T18:15:56 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- TestPackage.LoginClass -->
+      <class name="TestPackage.CartClass">
+        <test-method signature="Cart()[pri:0, instance:TestPackage.CartClass@691a7f8f]" started-at="2024-01-09T18:15:53 IST" name="Cart" finished-at="2024-01-09T18:15:56 IST" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+      </class> <!-- TestPackage.CartClass -->
+      <class name="TestPackage.OrderClass">
+        <test-method signature="order()[pri:0, instance:TestPackage.OrderClass@780cb77]" started-at="2024-01-09T18:15:48 IST" name="order" finished-at="2024-01-09T18:15:53 IST" duration-ms="4738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order -->
+      </class> <!-- TestPackage.OrderClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

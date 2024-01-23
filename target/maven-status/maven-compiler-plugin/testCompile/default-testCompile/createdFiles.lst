@@ -1,0 +1,11 @@
+TestPackage\StartingClass.class
+PageObject\SearchProductPage.class
+TestPackage\DeleteClass.class
+PageObject\LoginPage.class
+TestPackage\SearchClass.class
+PageObject\AddToCartPage.class
+PageObject\CheckOrders.class
+TestPackage\CartClass.class
+TestPackage\LoginClass.class
+TestPackage\OrderClass.class
+PageObject\DeleteFromCart.class

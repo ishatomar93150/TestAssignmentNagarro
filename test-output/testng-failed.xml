@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestPackage.OrderClass">
+        <methods>
+          <include name="order"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- TestPackage.OrderClass -->
+      <class name="TestPackage.CartClass">
+        <methods>
+          <include name="InitializeDriver"/>
+          <include name="Cart"/>
+        </methods>
+      </class> <!-- TestPackage.CartClass -->
+      <class name="TestPackage.SearchClass">
+        <methods>
+          <include name="SearchPOM"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- TestPackage.SearchClass -->
+      <class name="TestPackage.Recharge">
+        <methods>
+          <include name="InitializeDriver"/>
+          <include name="recharge"/>
+        </methods>
+      </class> <!-- TestPackage.Recharge -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

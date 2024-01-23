@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-23T12:55:24 IST" name="Suite" finished-at="2024-01-23T12:55:34 IST" duration-ms="10229">
+    <groups>
+    </groups>
+    <test started-at="2024-01-23T12:55:24 IST" name="Test" finished-at="2024-01-23T12:55:34 IST" duration-ms="10229">
+      <class name="TestPackage.SearchClass">
+        <test-method signature="SearchPOM()[pri:0, instance:TestPackage.SearchClass@771a660]" started-at="2024-01-23T12:55:26 IST" name="SearchPOM" finished-at="2024-01-23T12:55:32 IST" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPOM -->
+      </class> <!-- TestPackage.SearchClass -->
+      <class name="TestPackage.LoginClass">
+        <test-method is-config="true" signature="InitializeDriver()[pri:0, instance:TestPackage.LoginClass@72e5a8e]" started-at="2024-01-23T12:55:20 IST" name="InitializeDriver" finished-at="2024-01-23T12:55:24 IST" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="LoginPOM()[pri:0, instance:TestPackage.LoginClass@72e5a8e]" started-at="2024-01-23T12:55:24 IST" name="LoginPOM" finished-at="2024-01-23T12:55:26 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPOM -->
+      </class> <!-- TestPackage.LoginClass -->
+      <class name="TestPackage.Recharge">
+        <test-method signature="recharge()[pri:0, instance:TestPackage.Recharge@2d52216b]" started-at="2024-01-23T12:55:32 IST" name="recharge" finished-at="2024-01-23T12:55:34 IST" duration-ms="2666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recharge -->
+      </class> <!-- TestPackage.Recharge -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
